@@ -10,6 +10,14 @@
 
 #import "ViewController.h"
 
+#import "Vegetable.h"
+
+#import "Pumpkin.h"
+
+#import "Onion.h"
+
+#import "Potato.h"
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions

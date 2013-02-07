@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14DD2C6416C3367B002A1BA9 /* Vegetable.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD2C6316C3367B002A1BA9 /* Vegetable.m */; };
+		14DD2C6716C33815002A1BA9 /* Potato.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD2C6616C33815002A1BA9 /* Potato.m */; };
+		14DD2C6A16C33886002A1BA9 /* Onion.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD2C6916C33886002A1BA9 /* Onion.m */; };
+		14DD2C6D16C338CB002A1BA9 /* Pumpkin.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DD2C6C16C338CB002A1BA9 /* Pumpkin.m */; };
 		555E431416B84E1D00696EF1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431316B84E1D00696EF1 /* UIKit.framework */; };
 		555E431616B84E1D00696EF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431516B84E1D00696EF1 /* Foundation.framework */; };
 		555E431816B84E1D00696EF1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 555E431716B84E1D00696EF1 /* CoreGraphics.framework */; };
@@ -24,6 +28,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14DD2C6216C3367B002A1BA9 /* Vegetable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetable.h; sourceTree = "<group>"; };
+		14DD2C6316C3367B002A1BA9 /* Vegetable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetable.m; sourceTree = "<group>"; };
+		14DD2C6516C33815002A1BA9 /* Potato.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Potato.h; sourceTree = "<group>"; };
+		14DD2C6616C33815002A1BA9 /* Potato.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Potato.m; sourceTree = "<group>"; };
+		14DD2C6816C33885002A1BA9 /* Onion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Onion.h; sourceTree = "<group>"; };
+		14DD2C6916C33886002A1BA9 /* Onion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Onion.m; sourceTree = "<group>"; };
+		14DD2C6B16C338CA002A1BA9 /* Pumpkin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pumpkin.h; sourceTree = "<group>"; };
+		14DD2C6C16C338CB002A1BA9 /* Pumpkin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pumpkin.m; sourceTree = "<group>"; };
 		555E431016B84E1D00696EF1 /* FruitCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FruitCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		555E431316B84E1D00696EF1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		555E431516B84E1D00696EF1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +104,14 @@
 		555E431916B84E1D00696EF1 /* FruitCart */ = {
 			isa = PBXGroup;
 			children = (
+				14DD2C6216C3367B002A1BA9 /* Vegetable.h */,
+				14DD2C6316C3367B002A1BA9 /* Vegetable.m */,
+				14DD2C6B16C338CA002A1BA9 /* Pumpkin.h */,
+				14DD2C6C16C338CB002A1BA9 /* Pumpkin.m */,
+				14DD2C6816C33885002A1BA9 /* Onion.h */,
+				14DD2C6916C33886002A1BA9 /* Onion.m */,
+				14DD2C6516C33815002A1BA9 /* Potato.h */,
+				14DD2C6616C33815002A1BA9 /* Potato.m */,
 				555E433F16B8530800696EF1 /* Fruits */,
 				555E432216B84E1E00696EF1 /* AppDelegate.h */,
 				555E432316B84E1E00696EF1 /* AppDelegate.m */,
@@ -202,6 +222,10 @@
 				555E433C16B852FF00696EF1 /* Fruit.m in Sources */,
 				555E433D16B852FF00696EF1 /* Apple.m in Sources */,
 				555E433E16B852FF00696EF1 /* GoldDelicious.m in Sources */,
+				14DD2C6416C3367B002A1BA9 /* Vegetable.m in Sources */,
+				14DD2C6716C33815002A1BA9 /* Potato.m in Sources */,
+				14DD2C6A16C33886002A1BA9 /* Onion.m in Sources */,
+				14DD2C6D16C338CB002A1BA9 /* Pumpkin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +348,7 @@
 				555E433516B84E1E00696EF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
